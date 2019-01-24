@@ -8,35 +8,39 @@
     <meta name="viewport" content="width=device-width, intial-scale=1">
     </head>
     <body>
-            
-        <nav class="navbar navbar-expand-xl navbar-light bg-light">
-            <a class="navbar-brand bg-info text-white font-weight-bold" href="#">Dylan Hernandez</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse navbar-brand float-right" id="navbarNav">
-              <div class="float-right">
-              <ul class="navbar-nav">
-                <li class="nav-item active text-md-right">
-                  <a class="nav-link navbar-brand" class="text-md-right" href="index.html">Home<span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link navbar-brand" class="text-md-right" href="contact.html">Contact</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link navbar-brand" class="text-md-right" href="portfolio.html">Portfolio</a>
-                </li>
-              </ul>
-              </div>
+    
+      <nav class="navbar col-md-12 navbar-expand-xl navbar-dark bg-info">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+          <div class="collapse navbar-collapse navbar-brand float-right" id="navbarNav">
+            <div class="float-right">
+            <ul class="navbar-nav">
+              <li class="nav-item active text-md-right">
+                <a class="nav-link navbar-brand" class="text-md-right" href="index.html">Home<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navbar-brand" class="text-md-right" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link navbar-brand" class="text-md-right" href="portfolio.html">Portfolio</a>
+              </li>
+            </ul>
+            </div> 
+            <a class="navbar-brand-right text-white ml-auto font-weight-bold" href="contact.html"><h4>Dylan Hernandez</h4></a>
+           
+          
+          </div>
+        </nav>
             
             </div>
           </nav>
           <br>
           <br>
           <br>
- <div class="container" style="border: 1px solid #6666">
+ <div class="container col-md-10" style="border: 1px solid black;background-color: #d3d0d02d;">
     <div class="mx-auto" style="padding-left: 120px; padding-right:120px; padding-top: 50px">
-    <div class="row" style="border-bottom: 1px solid #6666; padding-bottom: 30px">
+    <div class="row" style="border-bottom: 1px solid black; padding-bottom: 30px">
          <h1 class="text-info">Contact</h1>
          
     </DIV>
@@ -44,15 +48,19 @@
            <div class="Textarea1">
                 <form action="/action_page.php">
                     <label for="fname">Name</label>
-                      <input type="text" id="fname" name="firstname" placeholder="John Doe">
-                        <br>      
+                    <br>
+                      <input class="col-md-6" type="text" id="fname" name="firstname" placeholder="John Doe">
+                        <br>  
+                        <br>    
                       <label for="lname">Last Name</label>
-                     <input type="text" id="lname" name="lastname" placeholder="JohnDoe@email.com">
+                      <br>
+                     <input class="col-md-6"  type="text" id="lname" name="lastname" placeholder="JohnDoe@email.com">
+                <br>
                 <br>
 
                 <label for="message">Message</label>
                 <br>
-                <textarea rows="8" cols="115" name="comment" form="usrform" color="#CCCCCC">
+                <textarea class="col-md-8" rows="8" cols="115" name="comment" form="usrform" color="#CCCCCC">
                         </textarea>
                         <br> 
                      <input type="submit" value="Submit">
@@ -76,7 +84,7 @@
                     <br>
 <footer class="page-footer font-small bg-info pt-2" style="border-top: pt-1 solid #666666">
     <div class="container-fluid text-center text-md-left">
-        <div class="footer-copyright text-center py-3">© 2018 Copyright:</div>
+        <div class="footer-copyright text-center text-white py-2">© 2018 Copyright:</div>
       </div> 
       </footer>
         
