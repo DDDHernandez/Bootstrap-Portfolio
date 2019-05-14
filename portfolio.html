@@ -5,7 +5,7 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
-  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="./assets/style.css">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, intial-scale=1">
 </head>
@@ -14,16 +14,17 @@
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-info">
     <a class="navbar-brand" href="index.html">Dylan Hernandez</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
+      <ul class="nav navbar-nav navbar-inline">
         <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Projects</a>
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contact.html">Additional Info</a>
+            <a class="nav-link" href="./assets/images/Resume.pdf">Resume</a>
         </li>
       </ul>
     </div>
@@ -34,155 +35,149 @@
   <br>
   <br>
   <div class="container col-md-9" style="border: 1px solid black; background-color: #d3d0d0a8;">
-    <div class="mx-auto" style="padding-left: 110px; padding-right: 10px; padding-top: 50px">
-      <div class="row" style="border-bottom: 1px solid black; padding-bottom: 30px; width: 90%">
+    <div class="mx-auto" id="containerStyling">
+
+      <div class="row" id="line">
         <h1 class="text-info">Portfolio</h1>
       </div>
-
       <div class="row" style="padding-top: 60px; padding-bottom: 60px">
-        <div class="col-md-6">
-          <figure class="figure">
-            <a href="https://dddhernandez.github.io/TriviaGame/">
-              <img class="Scratch" src="assets/images/2018-12-23.png" alt="Trivia Game"
+        <div class="col-sm-2 col-md-6">
+          <figure class="figure figure-hover">
+            <a href="https://actionsportsandgaming.herokuapp.com/">
+              <img class="Scratch" src="assets/images/2019-05-06 (2).png" alt="Local Business"
                 style="width:270px; height:210px; border:0;">
-              <figcaption class="figure-caption" style="font-size: 20px"><b>Trivia Game</b></figcaption>
+                <figcaption class="figure-caption" style="font-size: 18px; padding-top: 5px;"><p>Local Business's website for a class final project. Using: HTML5, CSS3, MDBootstrap, Jquery, Handlebars, Express, Node.js, MongoDb, and React.js</p></figcaption>
+              <figcaption class="figure-caption" style="font-size: 20px"><b>Action Sports & Gaming</b></figcaption>
             </a>
           </figure>
         </div>
-
-        <div class="col-md-6">
+        <div class="col-sm-2 col-md-6">
           <figure class="figure">
-            <a href="https://dddhernandez.github.io/Giphy/">
-              <img class="Javas" src="assets/images/2019-01-07 (1).png" alt="GiphyApi"
-                style="float:left; position: relative;width: 270px; height: 210px; border:1px solid #777777;">
-              <figcaption class="figure-caption" style="font-size: 20px"><b>Giphy API</b></figcaption>
+            <a href="https://dddhernandez.github.io/ClickyGame-/">
+              <img class="Scratch" src="assets/images/2019-04-16.png" alt="Click Tracker"
+                style="width:270px; height:210px; border:0;">
+                <figcaption class="figure-caption" style="font-size: 18px; padding-top: 5px;"><p>A fun memory card game that tests how many images you can click without repeating. Using: HTML5, CSS3, Bootstrap, Javascript, and React.js</p></figcaption>
+              <figcaption class="figure-caption" style="font-size: 20px"><b>The Click Tracker</b></figcaption>
             </a>
           </figure>
         </div>
       </div>
       <div class="row" style="padding-top: 60px; padding-bottom: 60px">
-        <div class="col-md-6">
+        <div class="col-sm-2 col-md-6">
           <figure class="figure">
-            <a href="https://shannonmh.github.io/Be-Your-Own-Bartender/index.html">
-              <img class="Scratch" src="assets/images/2019-01-23.png" alt="Group Project"
+            <a href="https://github.com/DDDHernandez/burger">
+              <img class="Scratch" src="assets/images/2019-03-10.png" alt="Burger"
                 style="width:270px; height:210px; border:0;">
-              <figcaption class="figure-caption" style="font-size: 20px"><b>Project1</b></figcaption>
+                <figcaption class="figure-caption" style="font-size: 18px; padding-top: 5px;"><p>A full stack application that allows you to create/view/devour/toss burgers using (POST, GET, PUT, DELETE). Using: HTML5, CSS3, Bootstrap, Javascript, Jquery, Handlebars, Node.js, MySQL, Express, and ORM.</p></figcaption>
+              <figcaption class="figure-caption" style="font-size: 20px"><b>Six Guys Burger</b></figcaption>
             </a>
           </figure>
         </div>
-        <div class="col-md-6">
+        <div class="col-sm-2 col-md-6">
+          <figure class="figure">
+            <a href="https://friendfinder0010.herokuapp.com/">
+              <img class="Scratch" src="assets/images/2019-03-03.png" alt="FriendFinder"
+                style="width:270px; height:210px; border:0;">
+                <figcaption class="figure-caption" style="font-size: 18px; padding-top: 5px;"><p>A full stack application that tests your personality to find you the perfect celebrity friend. Using: HTML5, CSS3, Bootstrap, Javascript, Node.js, and Express.</p></figcaption>
+              <figcaption class="figure-caption" style="font-size: 20px"><b>FriendFinder</b></figcaption>
+            </a>
+          </figure>
+        </div>
+      </div>
+      <div class="row" style="padding-top: 60px; padding-bottom: 60px">
+        <div class="col-sm-2 col-md-6">
+          <figure class="figure">
+            <a href="https://github.com/DDDHernandez/Bamazon">
+              <img class="Scratch" src="assets/images/2019-02-24 (6).png" alt="Bamazon"
+                style="width:270px; height:210px; border:0;">
+                <figcaption class="figure-caption" style="font-size: 18px; padding-top: 5px;"><p>This project is an Amazon-like storefront that takes in orders and updates the stores inventory based on customers purchase. Using: Node.js, Javascript, and MySQL.</p></figcaption>  
+              <figcaption class="figure-caption" style="font-size: 20px"><b>Bamazon</b></figcaption>
+            </a>
+          </figure>
+        </div>
+        <div class="col-sm-2 col-md-6">
           <figure class="figure">
             <a href="https://github.com/DDDHernandez/Hangman-Game/blob/master/index.js">
               <img class="Javas" src="assets/images/2019-02-18 (1).png" alt="Node Hangman"
-                style="float:left; position: relative;width: 270px; height: 210px; border:1px solid #777777;">
+                style="width: 270px; height: 210px; border:1px solid #777777;">
+                <figcaption class="figure-caption" style="font-size: 18px; padding-top: 5px;"><p>This project is a command line version of the classic Hangman game. Using: Node.js and Javascript</p></figcaption>
               <figcaption class="figure-caption" style="font-size: 20px"><b>Hangman</b></figcaption>
             </a>
           </figure>
         </div>
       </div>
-        <div class="row" style="padding-top: 60px; padding-bottom: 60px">
-          <div class="col-md-6">
-            <figure class="figure">
-              <a href="https://github.com/DDDHernandez/Bamazon">
-                <img class="Scratch" src="assets/images/2019-02-24 (6).png" alt="Bamazon"
-                  style="width:270px; height:210px; border:0;">
-                <figcaption class="figure-caption" style="font-size: 20px"><b>Bamazon</b></figcaption>
-              </a>
-            </figure>
-          </div>
-          <div class="col-md-6">
-            <figure class="figure">
-              <a href="https://friendfinder0010.herokuapp.com/">
-                <img class="Scratch" src="assets/images/2019-03-03.png" alt="FriendFinder"
-                  style="width:270px; height:210px; border:0;">
-                <figcaption class="figure-caption" style="font-size: 20px"><b>FriendFinder</b></figcaption>
-              </a>
-            </figure>
-          </div>
-      </div>
       <div class="row" style="padding-top: 60px; padding-bottom: 60px">
-        <div class="col-md-6">
+        <div class="col-sm-2 col-md-6">
           <figure class="figure">
-            <a href="https://github.com/DDDHernandez/burger">
-              <img class="Scratch" src="assets/images/2019-03-10.png" alt="Burger"
+            <a href="https://shannonmh.github.io/Be-Your-Own-Bartender/index.html">
+              <img class="Scratch" src="assets/images/2019-01-23.png" alt="Group Project"
                 style="width:270px; height:210px; border:0;">
-              <figcaption class="figure-caption" style="font-size: 20px"><b>Six Guys Burger</b></figcaption>
+                <figcaption class="figure-caption" style="font-size: 18px; padding-top: 5px;"><p>A group project using Youtube's and CocktailDb's Api to find drink recipes. Using: HTML5, CSS3, Materialize, AJAX, Javascript, Jquery.</p></figcaption>  
+              <figcaption class="figure-caption" style="font-size: 20px"><b>Project1</b></figcaption>
             </a>
           </figure>
         </div>
-        <div class="col-md-6">
-          <figure class="figure figure-hover">
-            <a href="https://serene-dawn-52813.herokuapp.com/">
-              <img class="Scratch" src="assets/images/2019-03-20 (4).png" alt="Name of the Game"
-                style="width:270px; height:210px; border:0;">
-              <figcaption class="figure-caption" style="font-size: 20px"><b>Name of The Game</b></figcaption>
+        <div class="col-sm-2 col-md-6">
+          <figure class="figure">
+            <a href="https://dddhernandez.github.io/Giphy/">
+              <img class="Javas" src="assets/images/2019-01-07 (1).png" alt="GiphyApi"
+                style="float:left; position: relative;width: 270px; height: 210px; border:1px solid #777777;">
+              <figcaption class="figure-caption" style="font-size: 18px">
+                <p>This project involves AJAX calls to Giphy's API to populate the page with your Giphy of choice. Using: HTML5, CSS3, Bootstrap, AJAX, Javascript, Jquery, GiphyAPi.</p>
+              </figcaption>
+              <figcaption class="figure-caption" style="font-size: 20px"><b>Giphy API</b></figcaption>
             </a>
           </figure>
         </div>
-      </div>
         <div class="row" style="padding-top: 60px; padding-bottom: 60px">
-          <div class="col-md-6">
+          <div class="col-sm-2 col-md-6">
             <figure class="figure">
-              <a href="https://dddhernandez.github.io/ClickyGame-/">
-                <img class="Scratch" src="assets/images/2019-04-16.png" alt="Click Tracker"
+              <a href="https://dddhernandez.github.io/TriviaGame/">
+                <img class="Scratch" src="assets/images/2018-12-23.png" alt="Trivia Game"
                   style="width:270px; height:210px; border:0;">
-                <figcaption class="figure-caption" style="font-size: 20px"><b>The Click Tracker</b></figcaption>
+                  <figcaption class="figure-caption" style="font-size: 18px; padding-top: 5px;"><p>This simple Triviag game was one of my first projects that tests you on random facts. Using: HTML5, CSS3, Bootstrap, Javascript, Jquery.</p></figcaption>
+                <figcaption class="figure-caption" style="font-size: 20px"><b>Trivia Game</b></figcaption>
               </a>
             </figure>
           </div>
-          <div class="col-md-6">
-            <figure class="figure figure-hover">
-              <a href="https://dddhernandez.github.io/unit-4-game/">
-                <img class="Scratch" src="assets/images/2018-12-12 (3).png" alt="Crystal Game"
-                  style="width:270px; height:210px; border:0;">
-                <figcaption class="figure-caption" style="font-size: 20px"><b>Crystal Collector</b></figcaption>
-              </a>
-            </figure>
-          </div>
-  </div>
-  <div class="row" style="padding-top: 60px; padding-bottom: 60px">
-    <div class="col-md-6">
-      <figure class="figure">
-        <a href="https://actionsportsandgaming.herokuapp.com/">
-          <img class="Scratch" src="assets/images/2019-05-06 (2).png" alt="Local Business"
-            style="width:270px; height:210px; border:0;">
-          <figcaption class="figure-caption" style="font-size: 20px"><b>Action Sports & Gaming</b></figcaption>
-        </a>
-      </figure>
+
+        </div>
+
+      </div>
+
+      <br>
+      <br>
     </div>
   </div>
-</div>
+  </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
 
-    <br>
-    <br>
-  </div>
-  </div>
-</div>
-</div>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
- 
- 
+
   <footer class="page-footer font-small bg-info pt-2">
-      <div class="container-fluid">
-        <ul class="list-group list-group-horizontal-sm">
-            <li style="list-style: none" class="list-group-item-info text-center"><a href="https://mail.google.com/mail/?view=cm&fs=1&to=Dielonh@gmail.com">Dielonh@gmail.com</a></li>
-            <li style="list-style: none" class="list-group-item-info text-center"><a href="https://www.linkedin.com/in/dylan-hernandez-0a6b37ab/">LinkedIn</a></li>
-            <li style="list-style: none" class="list-group-item-info text-center"><a href="https://github.com/DDDHernandez?tab=repositories">Github</a></li>
-          </ul>
-          <div class="footer-copyright text-center bg-info text-white py-2">Dylan Hernandez</div>
-      </div>
-    </footer>
+    <div class="container-fluid">
+      <ul class="list-group list-group-horizontal-sm">
+        <li style="list-style: none" class="list-group-item-info text-center"><a
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=Dielonh@gmail.com">Dielonh@gmail.com</a></li>
+        <li style="list-style: none" class="list-group-item-info text-center"><a
+            href="https://www.linkedin.com/in/dylan-hernandez-0a6b37ab/">LinkedIn</a></li>
+        <li style="list-style: none" class="list-group-item-info text-center"><a
+            href="https://github.com/DDDHernandez?tab=repositories">Github</a></li>
+      </ul>
+      <div class="footer-copyright text-center bg-info text-white py-2">Dylan Hernandez</div>
+    </div>
+  </footer>
 
 
 </body>
